@@ -79,4 +79,4 @@ EXPOSE 8000
 WORKDIR /root
 
 # Define default command.
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["./entrypoint.sh"]
